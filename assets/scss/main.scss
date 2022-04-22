@@ -26,10 +26,10 @@ Theme by Emonks
 @import 'settings/body';
 @import 'settings/buttons';
 @import 'settings/grid';
-@import 'settings/links';
 @import 'settings/effects';
 @import 'settings/nav';
 @import 'settings/form';
+@import 'settings/links';
 
 // Configuration
 @import "../node_modules/bootstrap/scss/root"; // Required
@@ -99,6 +99,8 @@ Theme by Emonks
 // Pagebuilder
 @import 'pagebuilder/accordion';
 @import 'pagebuilder/banner';
+@import 'pagebuilder/blokken';
 @import 'pagebuilder/content';
 @import 'pagebuilder/cta';
 @import 'pagebuilder/quote';
+@import 'pagebuilder/video';

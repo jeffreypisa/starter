@@ -1,12 +1,12 @@
-{% if item.achtergrond == 'bg-orange' %}
+{% if item.achtergrond == 'bg-dark' %}
 	{% set knopkleur = 'btn-light' %}
 {% elseif item.achtergrond == 'bg-greylight' %}
 	{% set knopkleur = 'btn-primary' %}
 {% else %}
-	{% set knopkleur = 'btn-dark' %}
+	{% set knopkleur = 'btn-primary' %}
 {% endif %}
 
-<section id="section{{ sectionno }}" class="pb-blog {{ item.achtergrond }} {% if item.achtergrond == 'bg-orange' %}text-white{% endif %}" data-scroll-section>
+<section id="section{{ sectionno }}" class="pb-blog {{ item.achtergrond }} {% if item.achtergrond == 'bg-dark' %}text-white{% endif %}">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 offset-md-1 text-center">
@@ -40,14 +40,8 @@
 		{% endif %}  
 	{% endif %}
 	<div class="text-center mt-4">
-		{% if lang == 'nl_NL' %}
-			<a href="{{ site.link }}/blog" class="btn {{ knopkleur }}"> 
-				Meer
-			</a>
-		{% else %}
-			<a href="{{ site.link }}/en/blog" class="btn {{ knopkleur }}"> 
-				Show more
-			</a>
-		{% endif %}
+		<a href="{{ site.link }}/blog" class="btn {{ knopkleur }}"> 
+			Meer
+		</a>
 	</div>
 </section>

@@ -1,4 +1,4 @@
-<section id="section{{ sectionno }}" class="mod-content p-0">
+<section id="section{{ sectionno }}" class="pb-blokken p-0">
 	{% if item.kolom %}
 		<div class="row g-0">
 		
@@ -9,7 +9,7 @@
 						<div class="kolom h-100 d-flex align-items-center {{ kolom.achtergrond }} {% if kolom.achtergrond == 'bg-dark' %}text-white{% endif %}">
 							<div class="kolom-space">
 								{% if kolom.titel %}
-									<h3 class="mb-2 {% if kolom.achtergrond != 'bg-transparent' %}h4{% endif %}""> {{ kolom.titel }} </h3>
+									<h2 class="h3 mb-2""> {{ kolom.titel }} </h2>
 								{% endif %}
 								{% if kolom.tekst %}
 									<p> {{ kolom.tekst }} </p>

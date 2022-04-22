@@ -2,14 +2,14 @@
 	font-weight: 600;
 	line-height: 48px;
 	color: #fff;
-	transition: .15s $ease;
+	transition: .3s $ease;
 	padding: 0 30px;
 	&:hover, &:focus, &:target {
 		opacity: 1;
 	}
 	&.btn-light {
 		background: #fff;
-		color: $orange;
+		color: $dark;
 		&:hover, &:focus, &:target {
 			background: $dark;
 			color: #fff !important;
@@ -19,14 +19,12 @@
 		background: $dark;
 		color: #fff;
 		&:hover, &:focus, &:target {
-			background: $orange;
+			background: $primary;
 		}
 	}
 	&.btn-primary {
-		background: $orange;
 		color: #fff;
 		&:hover, &:focus, &:target {
-			background: $dark;
 			color: #fff !important;
 		}
 	}
@@ -54,10 +52,10 @@
 	}
 	&:hover {
 		text-decoration: none;
-		color: $orange;
+		color: $primary;
 		&:after {
 			margin-left: 12px;
-			color: $orange;
+			color: $primary;
 		}
 	}
 }

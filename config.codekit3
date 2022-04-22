@@ -478,106 +478,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/img\/chevron_left_orange.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/chevron_left_orange.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/chevron_left.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/chevron_left.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/chevron_right_orange.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/chevron_right_orange.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/chevron_right.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/chevron_right.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/cursor_banner.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/cursor_banner.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/omi_logo_oranje.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/omi_logo_oranje.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/omi_logo_slogan_oranje.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/omi_logo_slogan_oranje.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/omi_logo_slogan_wit.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/omi_logo_slogan_wit.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/omi_logo_wit.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/omi_logo_wit.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/img\/shape.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/img\/shape.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/assets\/js\/main-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1048,6 +948,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/scss\/pagebuilder\/_blokken.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/assets\/scss\/pagebuilder\/_blokken.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/pagebuilder\/_content.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1088,6 +1003,21 @@
       "ma" : 1,
       "oA" : 1,
       "oAP" : "\/assets\/scss\/pagebuilder\/_quote.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/assets\/scss\/pagebuilder\/_video.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/assets\/scss\/pagebuilder\/_video.css",
       "oF" : 0,
       "oS" : 3,
       "pg" : 0,
@@ -1777,6 +1707,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/pagebuilder\/content.twig",
+      "oF" : 0
+    },
+    "\/templates\/pagebuilder\/cta.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/pagebuilder\/cta.twig",
       "oF" : 0
     },
     "\/templates\/pagebuilder\/video.twig" : {
