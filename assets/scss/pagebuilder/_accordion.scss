@@ -1,0 +1,59 @@
+.mod-accordion {
+
+	&.bg-transparent,
+	&.bg-white {
+		.item {
+			.heading {
+				background: $greylight;
+			}
+		}
+	}
+
+	.item {
+		margin: 0 0 10px;
+
+		.heading {
+			display: block;
+			padding: 10px;
+			background: #fff;
+			text-decoration: none;
+			font-weight: 600;
+
+			i.fa-minus {
+				display: none;
+			}
+
+			&:hover {
+				box-shadow: none;
+				color: $dark;
+				cursor: pointer;
+			}
+
+			&[aria-expanded="true"] {
+				i.fa-minus {
+					display: block;
+					margin-top: 7px;
+				}
+
+				i.fa-plus {
+					display: none;
+				}
+			}
+		}
+
+		.antwoord {
+			padding: 10px;
+		}
+	}
+}
+
+@include media-breakpoint-up(md) {
+	.mod-accordion {
+		.heading {
+			i {
+				top: 12px;
+			}
+		}
+
+	}
+}

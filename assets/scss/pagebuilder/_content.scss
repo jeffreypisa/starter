@@ -1,0 +1,39 @@
+.mod-content {
+	img {
+		max-width: 100%;
+	}
+	img.size-full {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		margin: 0 0 10px 0;
+	}
+	.col-md.bg-cover {
+		padding-top: 75%;
+	}
+	.kolom-space {
+		padding: 60px 30px;
+		margin: 0 auto;
+	}
+}
+
+@include media-breakpoint-down(md) {
+	.mod-content {
+		.col-md.bg-cover {
+			order: -1 !important;
+		}
+	}
+}
+	
+
+@include media-breakpoint-up(md) {
+	.mod-content {
+		.col-md.bg-cover {
+			padding-top: 50%;
+		}
+		.kolom-space {
+			padding: 80px 40px;
+			max-width: 500px;
+		}
+	}
+}

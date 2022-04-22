@@ -1,0 +1,50 @@
+body .nf-form-content button, 
+body .nf-form-content input[type=button], 
+body .nf-form-content input[type=submit] {
+	@extend .btn;
+	@extend .btn-primary;
+	height: auto;
+}
+
+body .nf-form-content .list-select-wrap .nf-field-element>div, 
+body .nf-form-content input:not([type=button]), 
+body .nf-form-content textarea {
+	background: $greylight;
+	border-color: $greylight;
+}
+
+body .nf-form-content label {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400; 
+	color: $dark;
+} 
+
+.form-select {
+	@extend .btn;
+	@extend .btn-primary;
+	padding-right: 50px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-image: url('../img/arrow.svg');
+	background-size: 18px 18px;
+	background-position: right 20px center;
+	&:hover, &:focus {
+		background-repeat: no-repeat;
+		background-image: url('../img/arrow.svg');
+		background-size: 18px 18px;
+		background-position: right 20px center;
+	}
+}
+
+.form-control {
+	padding: 10px 20px;
+	box-shadow: none;
+	margin-bottom: 15px;
+}
+
+@include media-breakpoint-up(md) {
+	.form-select {
+		width: auto;
+	}
+}
