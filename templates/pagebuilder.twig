@@ -10,6 +10,9 @@
 	{% elseif item.acf_fc_layout == 'blog' %}
 		{% include 'pagebuilder/blog.twig' %}
 	
+	{% elseif item.acf_fc_layout == 'cta' %}
+		{% include 'pagebuilder/cta.twig' %}
+	
 	{% elseif item.acf_fc_layout == 'accordion' %}
 		{% include 'pagebuilder/accordion.twig' %}
 	

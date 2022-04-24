@@ -1,6 +1,9 @@
 footer {
 	padding: 60px 0 30px;
 	position: relative;
+	p {
+		@extend small;
+	}
 	h2, h3, h4, h5, h6 {
 		@extend h6;
 		margin-bottom: 6px;
@@ -16,7 +19,8 @@ footer {
 		li {
 			padding: 0;
 			a {
-				font-size: 16px;
+				@extend small;
+				display: inherit;
 			}
 		}
 	}

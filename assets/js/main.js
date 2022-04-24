@@ -6,6 +6,7 @@ import { slick_init } from './scripts/slick.js';
 import { matchheight_init } from './scripts/matchheight.js';
 import { animejs } from './scripts/anime.js';
 import { lity_init } from './scripts/lity.js';
+import { simpleparallax } from './scripts/simpleparallax.js';
 
 // Scripts
 import { site_is_loaded } from './scripts/site_is_loaded.js';
@@ -15,6 +16,7 @@ import { sticky_header } from './scripts/sticky_header.js';
 import { loadmoreposts } from './scripts/loadmoreposts.js';
 
 lity_init();
+simpleparallax();
 
 $( document ).ready(function() {
 	footer_down();
