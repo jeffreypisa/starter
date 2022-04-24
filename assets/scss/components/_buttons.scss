@@ -1,12 +1,4 @@
 .btn {
-	font-weight: 600;
-	line-height: 48px;
-	color: #fff;
-	transition: .3s $ease;
-	padding: 0 30px;
-	&:hover, &:focus, &:target {
-		opacity: 1;
-	}
 	&.btn-light {
 		background: #fff;
 		color: $dark;

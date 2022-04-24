@@ -813,6 +813,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/assets\/scss\/components\/_menu.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/assets\/scss\/components\/_menu.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/assets\/scss\/components\/_mobilemenu.scss" : {
       "aP" : 1,
       "bl" : 0,
@@ -1771,22 +1786,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/templates\/partial\/socialmedia.twig",
-      "oF" : 0
-    },
-    "\/templates\/partial\/tekst.twig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/templates\/partial\/tekst.twig",
-      "oF" : 0
-    },
-    "\/templates\/partial\/video.twig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/templates\/partial\/video.twig",
       "oF" : 0
     },
     "\/templates\/search.twig" : {

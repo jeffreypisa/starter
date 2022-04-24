@@ -1,5 +1,5 @@
 footer {
-	padding: 60px 0 20px;
+	padding: 60px 0 30px;
 	position: relative;
 	h2, h3, h4, h5, h6 {
 		@extend h6;
@@ -21,7 +21,7 @@ footer {
 		}
 	}
 	.subfooter {
-		padding-top: 30px;
+		padding-top: 60px;
 		font-size: 14px;
 		line-height: 18px;
 		a[href] {
@@ -44,6 +44,9 @@ footer {
 
 @include media-breakpoint-up(md) {
 	footer {
-
+		padding: 90px 0 30px;
+		.subfooter {
+			padding-top: 90px;
+		}
 	}
 }

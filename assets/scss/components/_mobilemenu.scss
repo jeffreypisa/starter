@@ -62,7 +62,6 @@ body {
 	transition: 1s $ease;
 	opacity: 0;
 	text-align: center;
-	background: #fff;
 	overflow-y: scroll;
 	overflow: auto;
 	padding: 100px 0 40px;
@@ -74,12 +73,36 @@ body {
 		top: 0;
 		left: 0;
 		right: 0;
-		bottom: 0;
 		content: '';
 		z-index: -1;
 		background: #fff;
 		opacity: 0;
 		transition: 1s $ease;
+	}
+	.nav-item.btn {
+		width: auto;
+		padding: 0;
+		height: 50px;
+		line-height: 50px;
+		display: inline-block;
+		margin: 0 auto 30px;
+		&:hover, &:focus {
+			.nav-link {
+				color: #fff;
+			}
+		}
+		.nav-link {
+			color: #fff;
+			padding: 0 30px;
+			height: 50px;
+			line-height: 50px;
+			font-size: 21px;
+			margin: 0;
+			display: inline-block;
+			&:hover, &:focus {
+				color: #fff;
+			}
+		}
 	}
 	ul {
 		li {
@@ -87,19 +110,19 @@ body {
 			width: 100%;
 			opacity: 0;
 			margin-bottom: 10px;
-			a {
+			a:not(.btn) {
 				padding: 0;
 				margin: 0;
 				position: relative;
 				display: block;
 				transition: 0.4s $ease;
 				&:hover, &:focus {
-					color: $orange;
+					color: $primary;
 				}
 			}
 			&.current-lang {
 				a {
-					color: $orange;
+					color: $primary;
 				}
 			}
 		}
@@ -122,8 +145,8 @@ body.opensidemenu {
 			opacity: 1;
 		}
 		&:after {
-			transition: 0s $ease;
-
+			transition: 1s $ease;
+			bottom: 0;
 			opacity: .95;
 		}
 		&:before {

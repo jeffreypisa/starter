@@ -116,24 +116,19 @@ body {
 @include media-breakpoint-down(md) {
 	body {
 		h1 {
-			font-size: 40px;
-			line-height: 47px;
+			font-size: 50px;
 		}
 		h2 {
 			font-size: 28px;
-			line-height: 32px;
 		}
 		h3 {
-			font-size: 28px;
-			line-height: 32px;
+			font-size: 23px;
 		}
 		h4 {
 			font-size: 23px;
-			line-height: 28px;
 		}
 		h5, h6 {
 			font-size: 18px;
-			line-height: 24px;
 		}
 		.lead {
 			font-size: 20px;
@@ -145,24 +140,19 @@ body {
 @include media-breakpoint-down(sm) {
 	body {
 		h1 {
-			font-size: 34px;
-			line-height: 42px;
+			font-size: 45px;
 		}
 		h2 {
 			font-size: 28px;
-			line-height: 32px;
 		}
 		h3 {
 			font-size: 26px;
-			line-height: 32px;
 		}
 		h4 {
 			font-size: 22px;
-			line-height: 28px;
 		}
 		h5, h6 {
 			font-size: 17px;
-			line-height: 24px;
 		}
 		.lead {
 			font-size: 19px;
@@ -190,15 +180,15 @@ $line-height-sm:              1.25;
 $line-height-lg:              2;
 
 $h1-font-size:                60px;
-$h2-font-size:                46px;
-$h3-font-size:                36px;
-$h4-font-size:                30px;
-$h5-font-size:                26px;
+$h2-font-size:                36px;
+$h3-font-size:                30px;
+$h4-font-size:                24px;
+$h5-font-size:                21px;
 $h6-font-size:                18px;
 // scss-docs-end font-variables
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      $spacer * 2;
+$headings-margin-bottom:      30px;
 $headings-font-family:        null;
 $headings-font-style:         null;
 $headings-font-weight:        600;

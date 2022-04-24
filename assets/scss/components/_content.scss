@@ -1,3 +1,5 @@
+
+
 .content-styling {
 	* + h1,
 	* + h2,
@@ -6,14 +8,14 @@
 	* + h5,
 	* + h6,
 	* + img {
-		margin-top: 2rem;
+		@extend h4;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
 	}
 	h5,h6 {
 		margin-bottom: 8px;
 	}
-}
-
-.mod-content {
+	
 	ul {
 		list-style-type: none;
 		padding-left: 2rem;
@@ -23,19 +25,29 @@
 			margin-left: 0;
 			&:after {
 				position: absolute;
-				top: 7px;
-				left: -2rem;
+				top: 10px;
+				left: -1.9rem;
 				width: 8px;
 				height: 8px;
 				content: '';
-				background: $green;
+				background: $primary;
 				border-radius: 30px;
 			}
 		}
 	}
+	
+	img {
+		max-width: 100%;
+	}
+	img.size-full {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+		margin: 0 0 10px 0;
+	}
 }
 
 @include media-breakpoint-up(lg) {
-	.mod-content {
+	.content-styling {
 	}
 }

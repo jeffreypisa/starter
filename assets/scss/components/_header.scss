@@ -19,12 +19,22 @@ header {
 			width: auto;
 		}
 	}
+	.nav-item.btn {
+		margin-left: 20px;
+		padding: 0;
+		.nav-link {
+			color: #fff;
+			height: 42px;
+			line-height: 42px;
+			padding: 0 20px;
+		}
+	}
 	ul {
 		list-style-type: none;
 		li {
 			display: inline-block;
 			margin-left: 0;
-			a {
+			a:not(.btn) {
 				text-decoration: none;
 				font-size: 18px;
 				font-weight: 600;
@@ -44,7 +54,7 @@ header {
 	header {
 		position: fixed;
 		&.nav-up {
-			transform: translateY(-60px);
+			transform: translateY(-100%);
 			transition-delay: color .6s;
 			.header-brand {
 				transition-delay: background .6s;
@@ -68,14 +78,14 @@ header {
 			li {
 				display: inline-block;
 				margin-left: 5px;
-				a {
+				a:not(.btn) {
 					&:hover, &:focus {
 
 					}
 				}
 				&.current-menu-item,
 				&.current-menu-item:hover {
-					a {
+					a:not(.btn) {
 						position: relative;
 						color: $primary;
 					}

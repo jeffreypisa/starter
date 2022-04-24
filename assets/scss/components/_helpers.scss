@@ -44,3 +44,9 @@
 		margin: 0;
 	}
 }
+
+.last-element-no-mb {
+	>*:last-child {
+		margin-bottom: 0;
+	}
+}

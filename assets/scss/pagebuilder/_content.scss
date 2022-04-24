@@ -1,12 +1,17 @@
 .pb-content {
-	img {
-		max-width: 100%;
+	
+	.wp-block-image figcaption {
+		@extend small;
+		font-style: italic;
 	}
-	img.size-full {
-		width: 100%;
-		max-width: 100%;
-		height: auto;
-		margin: 0 0 10px 0;
+	
+	.wp-block-quote {
+		padding-left: 20px;
+		position: relative;
+		border-left: 4px solid $primary;	
+		cite {
+			@extend small;
+		}
 	}
 }
 

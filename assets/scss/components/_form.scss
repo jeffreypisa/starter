@@ -1,24 +1,37 @@
-body .nf-form-content button, 
-body .nf-form-content input[type=button], 
-body .nf-form-content input[type=submit] {
-	@extend .btn;
-	@extend .btn-primary;
-	height: auto;
+.field-wrap .nf-field-element:after {
+	display: none;
 }
 
-body .nf-form-content .list-select-wrap .nf-field-element>div, 
-body .nf-form-content input:not([type=button]), 
-body .nf-form-content textarea {
-	background: $greylight;
-	border-color: $greylight;
+body {
+	.nf-form-content {
+		padding: 0;
+		button, 
+		input[type=button], 
+		input[type=submit] {
+			@extend .btn;
+			@extend .btn-primary;
+		}
+		
+		.list-select-wrap .nf-field-element>div, 
+		input:not([type=button]), 
+		textarea {
+			@extend .form-control;
+		}
+		
+		label {
+			@extend .form-label;
+		} 
+	}
+	.bg-white, .bg-transparent {
+		.nf-form-content {
+			.list-select-wrap .nf-field-element>div, 
+			input:not([type=button]), 
+			textarea {
+				background: $greylight;
+			}
+		}
+	}
 }
-
-body .nf-form-content label {
-	font-size: 14px;
-	line-height: 16px;
-	font-weight: 400; 
-	color: $dark;
-} 
 
 .form-select {
 	@extend .btn;
@@ -35,12 +48,6 @@ body .nf-form-content label {
 		background-size: 18px 18px;
 		background-position: right 20px center;
 	}
-}
-
-.form-control {
-	padding: 10px 20px;
-	box-shadow: none;
-	margin-bottom: 15px;
 }
 
 @include media-breakpoint-up(md) {
